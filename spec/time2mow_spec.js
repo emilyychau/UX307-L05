@@ -22,4 +22,4 @@ describe("test time2mow function", function(){
         let mowRate = time2mow(length, width, mowTime)
         expect(mowRate.toFixed(2)).toBe("2.40");
     }); 
-})
+});
