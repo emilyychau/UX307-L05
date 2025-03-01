@@ -1,10 +1,10 @@
 import {computeAQI} from "../computeAQI.js";
 
 describe("test AQI computation", function() {
-    it("tests for an AQI of 25", function() {
-      let fAQI = 25; 
+   it("tests for an AQI of -6", function() {
+      let fAQI = -6; 
       let sAQ = computeAQI(fAQI);
-   expect(sAQ).toBe("The air quality is good");
+   expect(sAQ).toBe("Computation error, please enter an air quality value that is equal or greater than 0");
    });
 
    it("tests for an AQI of 65", function() {
