@@ -1,3 +1,4 @@
+//q2 lawn mowing spec
 import {time2mow} from '../time2mow.js';
 
 describe("test time2mow function", function(){
