@@ -1,4 +1,4 @@
-function yeeHaNada(int) {
+function yee_Ha(int) {
     let output = "";
  
     if (int % 3 === 0 && int % 7 === 0) {
@@ -15,5 +15,5 @@ function yeeHaNada(int) {
     }
 return output;
  }
- export{yeeHaNada}
+ export{yee_Ha}
  

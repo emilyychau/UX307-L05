@@ -1,3 +1,5 @@
+//q5 calculate slope of a line
+
 import { calculateSlope } from "../calculateSlope.js";
 
 describe("test calculateSlope", function(){
