@@ -9,7 +9,7 @@ describe("test time2mow function", function(){
         let mowRate = time2mow(length, width, mowTime)
         expect(mowRate.toFixed(2)).toBe("25.00");
     }); 
-    it("tests mowing 3x4m @ 10 sq metre / min", function(){
+    it("tests mowing 3x4m @ 10 sq metres / min", function(){
         let length = 3;
         let width = 4;
         let mowTime = 10;
